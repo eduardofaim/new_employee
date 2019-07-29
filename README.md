@@ -5,26 +5,32 @@
     * Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
     * Or Install Ruby with [Homebrew](http://brew.sh/)
     ```
-    $ brew install ruby
+    brew install ruby
     ```
     * Install bundler (sudo may be necessary)
     ```
-    $ gem install bundler
+    gem install bundler
     ```
 2. Clone the project
-
+    ```
+    git clone https://github.com/eduardofaim/new_employee.git
+    ```
 3. Project Dependencies
     * Execute the command below to install dependecies
     ```
-    $ bundle
+    bundle
     ```
-4. Run *"cucumber"* command to execute the tests
+4. Run `"cucumber"` command to execute the tests
+    ```
+    cucumber
+    ``
+    
+    
    
 
 ### Resources
-##### [TestingBot Documentation](https://testingbot.com/support/)
 
-##### [SeleniumHQ Documentation](http://www.seleniumhq.org/docs/)
+##### [TestingBot Documentation](https://testingbot.com/support/)
 
 ##### [Cucumber Documentation](https://cucumber.io/docs/reference)
 
