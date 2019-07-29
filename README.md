@@ -34,8 +34,6 @@ New Employee - POC
 
 ### Resources
 
-##### [TestingBot Documentation](https://testingbot.com/support/)
-
 ##### [Cucumber Documentation](https://cucumber.io/docs/reference)
 
 ##### [Capybara Documentation](http://www.rubydoc.info/github/jnicklas/capybara/master)
