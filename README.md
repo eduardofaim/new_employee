@@ -12,14 +12,13 @@
     $ gem install bundler
     ```
 2. Clone the project
-    ```
+
 3. Project Dependencies
-	```
-    * Execute the command
+    * Execute the command below to install dependecies
     ```
-	$ bundle
-	```
-4. Run "cucumber" command to execute the tests
+    $ bundle
+    ```
+4. Run *"cucumber"* command to execute the tests
    
 
 ### Resources
