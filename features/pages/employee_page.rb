@@ -1,6 +1,6 @@
 class NewEmployee
     include HTTParty
-    require_relative '../hooks/employee_hook'
+    #require_relative '../hooks/employee_hook'
     base_uri "http://dummy.restapiexample.com/api/v1"
 
     def initialize(body)
