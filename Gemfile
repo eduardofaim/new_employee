@@ -15,7 +15,7 @@ gem 'poltergeist'
 gem 'rubocop'
 gem 'cucumber_analytics'
 gem 'httparty', '~> 0.13.7'
-gem 'faker', '~> 1.6', '>= 1.6.6'
+gem 'faker'
 gem 'bundler'
 gem 'date_format' #docs http://rpatil.github.io/date-format/
 gem 'chromedriver-installer', '~> 0.0.6'
