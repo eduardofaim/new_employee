@@ -1,4 +1,11 @@
 
+<a href="https://github.com/eduardofaim">
+    <img src="https://www.outbrain.com/techblog/wp-content/uploads/2017/05/road-sign-361513_960_720.jpg" alt="test logo" title="test" align="right" height="60" />
+</a>
+
+New Employee - POC
+======================
+
 ### Environment Setup
 
 1. Global Dependencies
