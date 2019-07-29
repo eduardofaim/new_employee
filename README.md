@@ -21,9 +21,6 @@
     bundle
     ```
 4. Run `"cucumber"` command to execute the tests
-    ```
-    cucumber
-    ``
     
     
    
