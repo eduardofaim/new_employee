@@ -12,11 +12,12 @@ Then("the API will return the Startup registration data by response code {int}")
   expect($response.message).to eq("OK")
   puts "Response Message: #{$response.message}"
 
-  puts "ID    : #{$response.to_s["id"]}"
-  puts "Name  : #{$response.to_s["name"]}"
-  puts "Salary: #{$response.to_s["salary"]}"
-  puts "Age   : #{$response.to_s["age"]}"
+  puts "ID    : #{$response["id"]}"
+  puts "Name  : #{$response["name"]}"
+  puts "Salary: #{$response["salary"]}"
+  puts "Age   : #{$response["age"]}"
   puts "Response Body: #{$response.body}"
+  
   
   $id = $response["id"]
 end
