@@ -8,7 +8,7 @@ Before '@employee' do
         "name": @name,
         "salary": @salary,
         "age": @age
-    }.to_json
+    }
 
     @employee = NewEmployee.new(@body)
 end
