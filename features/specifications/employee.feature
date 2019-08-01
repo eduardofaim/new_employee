@@ -1,11 +1,10 @@
-#@employee
+@employee
 
 Feature: New Employee
 As a system user
 I want to perform API requests
 In order to manipulate startup registration information
 
-@create
 Scenario: Create an Employee
     Given API address to maintain employee registration
     When making a request to register an employee

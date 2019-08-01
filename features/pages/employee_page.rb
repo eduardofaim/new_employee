@@ -1,11 +1,10 @@
 class NewEmployee
     include HTTParty
-    require_relative '../hooks/employee_hook'
-    
-    headers "Content-Type" => 'application/json'
+    base_uri "http://dummy.restapiexample.com/api/v1"
+    #headers "Content-Type" => 'application/json'
 
     def initialize(body)
-        @options = {:body => body.to_json}
+        @options = {:body => body}
         @options2 = {}
     end
 

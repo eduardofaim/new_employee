@@ -1,16 +1,9 @@
 Given("API address to maintain employee registration") do
-  $uri_base = "http://dummy.restapiexample.com/api/v1/create"
+  #already instantiated by the NewEmployee class
 end
   
 When("making a request to register an employee") do
-  #$response = HTTParty.post($uri_base, :body => {"name":"asdf", "salary":"1000","age":"20"})
-  $response = HTTParty.post($uri_base,
-     :body => {
-       "name":"Test name",
-       "salary":"1000",
-       "age":"20"}.to_json,
-       :headers => {"Content-Type" => "application/json" })
-  #$response = @employee.postEmployee
+  $response = @employee.postEmployee
 end
   
 Then("the API will return the Startup registration data by response code {int}") do |int|
@@ -24,7 +17,7 @@ Then("the API will return the Startup registration data by response code {int}")
   puts "Salary: #{$response["salary"]}"
   puts "Age   : #{$response["age"]}"
   puts "Response Body: #{$response.body}"
-    
+   
   $id = $response["id"]
 end
   
