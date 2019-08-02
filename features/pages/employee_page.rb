@@ -1,5 +1,6 @@
 class NewEmployee
     include HTTParty
+    require_relative '../hooks/employee_hook.rb'
     base_uri "http://dummy.restapiexample.com/api/v1"
     #headers "Content-Type" => 'application/json'
 
@@ -12,11 +13,11 @@ class NewEmployee
         self.class.post("/create", @options)
     end
 
-    def getEmployee (id)
+    def getEmployee(id)
         self.class.get("/employee/#{id}", @options2)
     end
 
-    def deleteEmployee (id)
+    def deleteEmployee(id)
         self.class.delete("/delete/#{id}", @options2)
     end
 end

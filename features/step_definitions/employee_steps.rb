@@ -12,7 +12,7 @@ Then("the API will return the Startup registration data by response code {int}")
   expect($response.message).to eq("OK")
   puts "Response Message: #{$response.message}"
 
-  puts "ID    : #{$response["id"]}"
+  puts "ID    : #{$response['id']}"
   puts "Name  : #{$response["name"]}"
   puts "Salary: #{$response["salary"]}"
   puts "Age   : #{$response["age"]}"
@@ -39,7 +39,7 @@ Then("the API will return the corresponding Employee data by response code {int}
 end
   
 When("make a request to delete an employee") do
-  $delete = @employee.deleteEmployee($get["id"])
+  $delete = @employee.deleteEmployee($id)
 end
   
 Then("the API should return the delete message by response code {int}") do |int|
